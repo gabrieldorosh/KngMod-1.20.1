@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "cooked_sulfur",
+  "ingredient": {
+    "item": "kngmod:sulfur_ore"
+  },
+  "result": "kngmod:cooked_sulfur"
+}

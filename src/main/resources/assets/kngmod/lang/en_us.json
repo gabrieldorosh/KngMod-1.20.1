@@ -1,0 +1,21 @@
+{
+  "item.kngmod.chips": "Chips",
+  "item.kngmod.coins": "Coins",
+  "item.kngmod.raw_kebab_meat": "Raw Kebab Meat",
+  "item.kngmod.brownie": "Brownie",
+  "item.kngmod.raw_hqm": "Raw High Quality Metal",
+  "item.kngmod.hqm_ingot": "High Quality Metal Ingot",
+  "item.kngmod.cooked_sulfur": "Cooked Sulfur",
+  "item.kngmod.raw_sulfur": "Raw Sulfur",
+
+  "block.kngmod.big_bass_money_block": "Big Bass Money Block",
+  "block.kngmod.slot_base_block": "Slot Machine Base Block",
+  "block.kngmod.hqm_ore": "High Quality Metal Ore",
+  "block.kngmod.deepslate_hqm_ore": "Deepslate High Quality Metal Ore",
+  "block.kngmod.sulfur_ore": "Sulfur Ore",
+  "block.kngmod.deepslate_sulfur_ore": "Deepslate Sulfur Ore",
+
+  "creativetab.gambling_tab": "Gambling",
+  "creativetab.shopping_tab": "Shopping",
+  "creativetab.rust_tab": "Rust"
+}

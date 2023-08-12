@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kngmod:coins"
+    },
+    {
+      "item": "kngmod:coins"
+    },
+    {
+      "item": "kngmod:coins"
+    },
+    {
+      "item": "kngmod:coins"
+    },
+    {
+      "item": "kngmod:coins"
+    }
+  ],
+  "result": {
+    "item": "kngmod:chips"
+  }
+}

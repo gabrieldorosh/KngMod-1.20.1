@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "kngmod:block/big_bass_money_block_front",
+    "side": "kngmod:block/big_bass_money_block_side",
+    "top": "kngmod:block/big_bass_money_block_top"
+  }
+}

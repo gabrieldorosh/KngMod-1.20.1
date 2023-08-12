@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "hqm_ingot",
+  "ingredient": {
+    "item": "kngmod:deepslate_hqm_ore"
+  },
+  "result": "kngmod:hqm_ingot"
+}

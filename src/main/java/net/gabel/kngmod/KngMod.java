@@ -1,6 +1,10 @@
 package net.gabel.kngmod;
 
 import com.mojang.logging.LogUtils;
+import net.gabel.kngmod.block.ModBlocks;
+import net.gabel.kngmod.item.ModCreativeModeTabs;
+import net.gabel.kngmod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -25,6 +29,10 @@ public class KngMod { // Class name and name of the file (RENAME WITH SHIFT + F6
     public KngMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus); // Ensures deferred register is properly registered
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -38,9 +46,11 @@ public class KngMod { // Class name and name of the file (RENAME WITH SHIFT + F6
 
     }
 
-    // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+    private void addCreative(BuildCreativeModeTabContentsEvent event) { // Adds items to already existing vanilla tabs
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.RAW_KEBAB_MEAT); // This adds the kebab item to the ingredients tab
+            event.accept(ModItems.BROWNIE); // This adds the kebab item to the ingredients tab
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kngmod:block/slot_base_block"
+    }
+  }
+}

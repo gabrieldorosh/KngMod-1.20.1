@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:chicken"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "item": "kngmod:raw_kebab_meat"
+  },
+  "show_notification": true
+}
